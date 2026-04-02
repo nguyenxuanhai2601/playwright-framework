@@ -1,7 +1,7 @@
 import { test, expect } from '../../fixtures/base.fixture';
 import { LoginPage } from '../../pages/login.page';
 
-// 👇 import JSON
+// 👇 import JSON DI
 import users from '../../test-data/users.json';
 
 test.describe('Login Feature', () => {
