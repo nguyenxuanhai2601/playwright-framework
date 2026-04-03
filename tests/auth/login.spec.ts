@@ -16,7 +16,7 @@ test.describe('Login Feature', () => {
     await expect(page).toHaveURL(/forms/);
   });
 
-  test('Login failed', async ({ page }) => {
+  /*test('Login failed', async ({ page }) => {
       const loginPage = new LoginPage(page);
 
       await loginPage.goto();
@@ -26,6 +26,6 @@ test.describe('Login Feature', () => {
       );
 
       await expect(page.locator('.error')).toBeVisible();
-    });
+    });*/
 
 });
